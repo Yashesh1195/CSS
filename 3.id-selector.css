@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: bisque;
+    height: 35px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+    margin-left: 30px;
+}
+

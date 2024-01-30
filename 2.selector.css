@@ -1,0 +1,39 @@
+/* Univrsal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Element Selector */
+h1 {
+    background-color: darksalmon;
+    color: darkolivegreen !important;
+}
+/* Group Selector */
+h1,h2,h3 {
+    background-color: antiquewhite;
+    color: darkgoldenrod;
+}
+/* Group Selector */
+h4,h5,h6 {
+    background-color: burlywood;
+    color: darkslategrey;
+}
+/* Class Selector */
+.abc {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: solid 2px darkblue;
+}
+
+.abcd {
+    height: 100px;
+    width: 100px;
+    background-color: darkseagreen;
+    border: solid 2px darkgreen;
+    margin-left: 103px;
+}
+
+.parent {
+    background-color: cornsilk;
+}
