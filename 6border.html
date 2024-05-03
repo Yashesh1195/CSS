@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Task</title>
+    <style>
+        img{
+            height: 450px;
+            width: 300px;
+        }
+        input{
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+        select{
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body style="background-color: darkslategray;">
+    <center>
+        <form action="">
+            <table cellspacing="20" style="background-color: white;">
+                <tr>
+                    <td>
+                        <img src="i4.jpg" alt="">
+                    </td>
+                    <td>
+                        <table border="0" cellspacing="15">
+                            <caption><h2>REGISTRATION FORM</h2></caption>
+                            <tr>
+                                <td><input type="text" placeholder="First Name" required></td>
+                                <td><input type="text" placeholder="Last Name" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="text" placeholder="Username" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="email" placeholder="Email" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><select name="" id="">
+                                    <option value="">Gender</option>
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                    <option value="">Other</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="text" placeholder="Password" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="text" placeholder="Confirm Password" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><center><input type="submit" style="background-color: darkslategray; color: white;" value="Register"></center></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+        .one{
+            height: 600px;
+            width: 800px;
+            margin-top: 80px;
+            margin-left: 360px;
+            color: antiquewhite;
+            border: 1px solid black;
+        }
+        .two{
+            height: 7px;
+            width: 7px;
+            background-color: orange;
+            border: 2px solod orange;
+            animation: load 5s infinite normal;
+            position: relative;
+            display: block;
+        }
+        @keyframes load {
+            /* from{
+                left: 0;
+            } */
+            to{
+                /* left: 97.5%; */
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        C++
+        <div class="two" id="1"></div>
+        Java
+        <div class="two" id="2"></div>
+        Python
+        <div class="two" id="3"></div>
+        HTML
+        <div class="two" id="4"></div>
+        CSS
+        <div class="two" id="5"></div>
+        JavaScript
+        <div class="two" id="6"></div>
+    </div>
+</body>
+</html>
